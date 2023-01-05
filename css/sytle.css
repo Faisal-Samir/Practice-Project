@@ -105,14 +105,17 @@ header {
     gap: 20px;
 }
 .type-item-food{
-    border: 2px solid green;
     background-color: rgba(188, 228, 253, 0.519);
+    padding: 20px 15px;
 }
 .type-item-shelter{
-    border: 2px solid green;
     background-color: rgba(233, 180, 174, 0.373);
+    padding: 20px 15px;
 }
 .type-item-education{
-    border: 2px solid green;
     background-color: rgba(230, 171, 165, 0.712);
+    padding: 25px 15px;
+}
+.donate-type-container img{
+    padding: 20px 15px;
 }
