@@ -119,3 +119,86 @@ header {
 .donate-type-container img{
     padding: 20px 15px;
 }
+.donate-depend-container{
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+}
+.depend-content{
+    padding: 0px 10px;
+}
+.depend-image img{
+    width: 320px;
+    height: 350px;
+}
+.depend-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.depend-desription-1 , .depend-description-2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgb(141, 130, 130);
+}
+.update-container{
+    margin-top: 90px;
+    text-align: center;
+}
+.update-description{
+    margin-top: 20px;
+}
+.input-field{
+    margin-top: 80px;
+    height: 200px;
+    background-color: rgba(226, 181, 176, 0.396);
+}
+.input-field form{
+    margin-top: 100px;
+}
+input{
+    margin-top: 80px;
+}
+input[type="text"]{
+    width: 230px;
+    height: 40px;
+    border: none;
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -3px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(185, 63, 63);
+}
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+}
+footer h3{
+    color: rgb(185, 63, 63);
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 55px;
+}
+footer p{
+    color: white;
+}
