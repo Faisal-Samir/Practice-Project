@@ -31,7 +31,7 @@ header {
     font-weight: 400px;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 18px 18px;
     background-color: rgb(185, 63, 63);
     color: white;
@@ -41,17 +41,21 @@ header {
     margin-top: 30px;
     font-weight: 700;
 }
-.donate-container{
+
+.donate-container {
     text-align: center;
     /* margin-top: 100px; */
     padding: 100px 400px;
+    position: absolute;
 }
-.donate-container ul{
+
+.donate-container ul {
     display: flex;
     gap: 35px;
     justify-content: center;
 }
-.donate-container ul li{
+
+.donate-container .donate ul li {
     list-style: none;
     padding: 30px 15px;
     background-color: lightgray;
@@ -60,24 +64,29 @@ header {
     color: gray;
     cursor: pointer;
     border-radius: 5px;
+    box-sizing: border-box;
 }
-.donate-container ul li:hover{
-    border: 2px solid rgb(185, 63, 63);
+
+.donate-container .donate ul li:hover {
+    border: .5px solid rgb(185, 63, 63);
     background-color: rgb(195, 152, 152);
     border-radius: 5px;
     color: rgb(183, 52, 52);
-} 
+    box-sizing: border-box;
+}
 
-.donate-title{
+.donate-title {
     font-size: 45px;
     font-weight: 700;
     color: black;
 }
-.donate-description{
+
+.donate-description {
     margin-top: 20px;
     margin-bottom: 50px;
 }
-.donate-extra{
+
+.donate-extra {
     margin-top: 40px;
     padding: 20px 0;
     color: gray;
