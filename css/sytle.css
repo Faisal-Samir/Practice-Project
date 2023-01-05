@@ -43,7 +43,7 @@ header {
 }
 
 .donate-container {
-    text-align: center;
+    /* text-align: center; */
     /* margin-top: 100px; */
     padding: 100px 400px;
     position: absolute;
@@ -64,26 +64,28 @@ header {
     color: gray;
     cursor: pointer;
     border-radius: 5px;
-    box-sizing: border-box;
+    border: 2px solid transparent;
+    text-align: center;
 }
 
 .donate-container .donate ul li:hover {
-    border: .5px solid rgb(185, 63, 63);
+    border: 2px solid rgb(185, 63, 63) ;
     background-color: rgb(195, 152, 152);
     border-radius: 5px;
     color: rgb(183, 52, 52);
-    box-sizing: border-box;
 }
 
 .donate-title {
     font-size: 45px;
     font-weight: 700;
     color: black;
+    text-align: center;
 }
 
-.donate-description {
+.donate-description , .donate-plan-description{
     margin-top: 20px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .donate-extra {
@@ -92,4 +94,25 @@ header {
     color: gray;
     font-size: 20px;
     font-weight: 400px;
+    text-align: center;
+}
+.btn{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.donate-type-container{
+    display: flex;
+    gap: 20px;
+}
+.type-item-food{
+    border: 2px solid green;
+    background-color: rgba(188, 228, 253, 0.519);
+}
+.type-item-shelter{
+    border: 2px solid green;
+    background-color: rgba(233, 180, 174, 0.373);
+}
+.type-item-education{
+    border: 2px solid green;
+    background-color: rgba(230, 171, 165, 0.712);
 }
