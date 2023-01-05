@@ -48,17 +48,26 @@ header {
 }
 .donate-container ul{
     display: flex;
-    gap: 15px;
+    gap: 35px;
     justify-content: center;
 }
 .donate-container ul li{
     list-style: none;
-    padding: 36px 18px;
+    padding: 30px 15px;
     background-color: lightgray;
     font-size: 28px;
     font-weight: 700;
     color: gray;
+    cursor: pointer;
+    border-radius: 5px;
 }
+.donate-container ul li:hover{
+    border: 2px solid rgb(185, 63, 63);
+    background-color: rgb(195, 152, 152);
+    border-radius: 5px;
+    color: rgb(183, 52, 52);
+} 
+
 .donate-title{
     font-size: 45px;
     font-weight: 700;
